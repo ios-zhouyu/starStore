@@ -18,6 +18,8 @@
     [super viewDidLoad];
     self.title = @"控制器2";
     self.view.backgroundColor = [UIColor yellowColor];
+    
+    [self demo];
 }
 
 - (void)demo {
