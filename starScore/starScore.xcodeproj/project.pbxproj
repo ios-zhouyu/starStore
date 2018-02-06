@@ -15,6 +15,7 @@
 		33C5D0351E48379B00ED2E69 /* StarEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C5D0321E48379B00ED2E69 /* StarEvaluator.m */; };
 		33C5D03A1E4837A000ED2E69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C5D0361E4837A000ED2E69 /* ViewController.m */; };
 		33C5D03B1E4837A000ED2E69 /* showScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C5D0381E4837A000ED2E69 /* showScoreController.m */; };
+		620B7CAB2029841400CAA654 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 620B7CAA2029841400CAA654 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		33C5D0371E4837A000ED2E69 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		33C5D0381E4837A000ED2E69 /* showScoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showScoreController.m; sourceTree = "<group>"; };
 		33C5D0391E4837A000ED2E69 /* showScoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showScoreController.h; sourceTree = "<group>"; };
+		620B7CA92029841400CAA654 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		620B7CAA2029841400CAA654 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				33C5D01D1E48373F00ED2E69 /* AppDelegate.m */,
 				33C5D0371E4837A000ED2E69 /* ViewController.h */,
 				33C5D0361E4837A000ED2E69 /* ViewController.m */,
+				620B7CA92029841400CAA654 /* ViewController2.h */,
+				620B7CAA2029841400CAA654 /* ViewController2.m */,
 				33C5D0391E4837A000ED2E69 /* showScoreController.h */,
 				33C5D0381E4837A000ED2E69 /* showScoreController.m */,
 				33C5D0311E48379B00ED2E69 /* markScoreController.h */,
@@ -162,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620B7CAB2029841400CAA654 /* ViewController2.m in Sources */,
 				33C5D0341E48379B00ED2E69 /* markScoreController.m in Sources */,
 				33C5D03B1E4837A000ED2E69 /* showScoreController.m in Sources */,
 				33C5D01E1E48373F00ED2E69 /* AppDelegate.m in Sources */,
@@ -318,6 +324,7 @@
 				33C5D02F1E48373F00ED2E69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
