@@ -46,7 +46,7 @@
     
 }
 
-//代理回调
+//代理回调--将评分回调回来展示
 - (void)starEvaluator:(StarEvaluator *)evaluator currentValue:(float)value {
     self.commentLabel.text = [NSString stringWithFormat:@"评分: %.1f",self.starEvaluator.currentValue];
 }
